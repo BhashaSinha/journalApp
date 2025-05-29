@@ -54,22 +54,6 @@ Redis server (optional for caching)
 
 MongoDB Atlas or local MongoDB instance
 
-Steps
-bash
-Copy
-Edit
-# Clone the repo
-git clone https://github.com/your-username/JournalApp.git
-cd JournalApp
-
-# Configure application-dev.yml or application.properties
-# Add your MongoDB, Redis, and email credentials
-
-# Run the Spring Boot application
-./mvnw spring-boot:run
-Swagger UI
-Visit: http://localhost:8081/journal/v3/api-docs
-
 🚀 API Endpoints
 🔐 Admin APIs
 Method	Endpoint	Description
